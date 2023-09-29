@@ -1,0 +1,4 @@
+service : () -> {
+  getPantalla : () -> (nat32) query;
+  setPantalla : (nat32) -> ();
+}

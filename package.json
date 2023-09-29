@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "start": "./start.sh",
+        "stop": "dfx stop",
+        "canister_deploy_mainnet": "dfx deploy --network ic azlecalc",
+        "canister_uninstall": "dfx canister uninstall-code azlecalc",
+        "getCalculadora": "dfx canister call azlecalc getPantalla",
+        "setCalculadora": "dfx canister call azlecalc setpantalla 1.0"
+    },
+    "dependencies": {
+        "azle": "0.17.1"
+    }
+}
+
